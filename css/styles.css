@@ -11,9 +11,95 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
- .competence-section {
-  height: 500px;
-  background-color: #f8f9fa;
+ 
+
+ .card-competence {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  gap: 25px;
+  padding: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  
+ }
+
+ .svg-inline--fa {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ .card-competence div {
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .fa-css3 {
+  color: red;
+ }
+
+
+ .fa-html5 {
+  color: rgb(20, 124, 234);
+ }
+
+ .fa-js {
+  color: yellow;
+ }
+
+ .fa-sass {
+  color: darkorchid;
+ }
+
+ .fa-bootstrap {
+  color: rgba(177, 28, 179, 0.861);
+ }
+
+ .fa-react {
+  color: #0dcaf0;
+ }
+
+ .fa-figma
+ {
+color: red;
+ }
+
+ .fa-code {
+  color: var(--bs-blue)
+ }
+
+ .fa-trello {
+  color: grey;
+ }
+
+ .fa-store {
+  color: green;
+ }
+
+ .title-presentation {
+  color: #06668C;
+ }
+
+ .fa-location-dot {
+  color: white;
+ }
+
+ .fa-envelope {
+  color: white;
+ }
+
+ .fa-phone {
+  color: white;
  }
 
  .image-about {
@@ -24,14 +110,54 @@
   align-items: center;
  }
 
+.span-logo {
+  color: #EBF2FA;
+  font-size: 50px ;
+}
 
+.hr-line {
+ display: flex;
+ width: 500px;
+ align-items: center;
+ justify-content: center;
+ margin: auto;
+}
 
+.list-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  background-color: #679436;
+  gap: 20px;
+  
+}
 
+.list-contact div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+  padding: 20px;
+  height: 50px;
+  gap: 15px;
+}
 
+.list-contact div p {
+  color: white;
+  font-size: 25px;
+}
 
+.list-contact div i {
+  color: white;
+}
 
-
-
+.section-contact div {
+  display: flex;
+  flex-direction: row;
+}
 
 
 
@@ -626,7 +752,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 400px;
   height: 250px;
 }
 
@@ -4870,8 +4996,8 @@ textarea.form-control-lg {
   padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
   color: var(--bs-list-group-color);
   text-decoration: none;
-  background-color: var(--bs-list-group-bg);
-  border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+  background-color: #679436;
+  
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -8158,10 +8284,10 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
-.bg-primary {
+/* .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
-}
+} */
 
 .bg-secondary {
   --bs-bg-opacity: 1;
@@ -10864,18 +10990,19 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 5rem 0;
   height: auto;
   background-color: #679436;
+  
 }
 .page-section .page-section-heading {
-  font-size: 2.25rem;
+  
   line-height: 2rem;
-  color: #EBF2FA ;
+  color: black ;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
@@ -10934,7 +11061,7 @@ html {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #A4BD01;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -10943,7 +11070,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #A4BD01;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -10971,11 +11098,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: #A4BD01;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #A4BD01;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -11011,11 +11138,11 @@ html {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
-  color: #A4BD01;
+  color: #EBF2FA;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
-  color: #A4BD01;
+  color: #EBF2FA;
 }
 .masthead .masthead-avatar {
   width: 15rem;
@@ -11080,6 +11207,3 @@ html {
   color: #fff;
 }
 
-.copyright {
-  background-color: #1a252f;
-}
