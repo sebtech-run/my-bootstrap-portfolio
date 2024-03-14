@@ -82,7 +82,8 @@
 }
 
 .title-presentation {
-  color: #06668c;
+  color: black;
+  filter: brightness(1);
 }
 
 .fa-location-dot {
@@ -673,7 +674,8 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
-  color: #ebf2fa;
+  color: black;
+  filter: brightness(1);
 }
 
 .display-1 {
@@ -11391,12 +11393,13 @@ html {
 }
 #mainNav .navbar-brand {
   color: #a4bd01;
+  filter: brightness(1);
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: black;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #a4bd01;
