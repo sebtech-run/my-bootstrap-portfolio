@@ -155,7 +155,7 @@
 }
 
 .info-contact p {
-  color: white;
+  color: #06668c;
   font-size: 20px;
 }
 
@@ -3359,8 +3359,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-light {
-  --bs-btn-color: #f8f9fa;
-  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-border-color: black;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #f8f9fa;
   --bs-btn-hover-border-color: #f8f9fa;
@@ -11323,7 +11322,7 @@ html {
 .page-section {
   padding: 5rem 0;
   height: auto;
-  background-color: #679436;
+  background-color: #ebf2fa;
 }
 .page-section .page-section-heading {
   line-height: 2rem;
